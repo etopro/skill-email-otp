@@ -1,12 +1,12 @@
 ---
-name: tempmail
-description: Create temporary email addresses and monitor for OTP codes or validation links
+name: email-otp
+description: Create temporary email addresses and monitor for registration OTP codes or validation links
 version: 1.0.0
 metadata:
-  author: skill-email-otp
+  author: etopro
 ---
 
-# TempMail OTP Skill
+# Email OTP Skill
 
 A skill for creating temporary email addresses and automatically extracting OTP codes and validation links from incoming emails. Uses the free mail.tm API (no API key required).
 

@@ -1,4 +1,4 @@
-# TempMail OTP Skill
+# Email OTP Skill
 
 A Python CLI tool and OpenClaw/Claude skill for creating temporary email addresses and automatically extracting OTP codes and validation links from incoming emails.
 
@@ -31,7 +31,7 @@ chmod +x scripts/tempmail_otp.py
 ```
 
 3. (Optional) Install as a skill for OpenClaw/Claude:
-   - Copy to `~/.openclaw/skills/tempmail/` or `~/.claude/skills/tempmail/`
+   - Copy to `~/.openclaw/skills/email-otp/` or `~/.claude/skills/email-otp/`
 
 ## Quick Start
 
