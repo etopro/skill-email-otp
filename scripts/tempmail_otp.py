@@ -26,7 +26,6 @@ from typing import Optional
 try:
     import urllib.request
     import urllib.error
-    import urllib.parse
 except ImportError:
     print("Error: urllib required (Python 3 standard library)")
     sys.exit(1)
@@ -393,7 +392,7 @@ def cmd_check(args):
     return 1
 
 
-def cmd_list(args):
+def cmd_list(_args):
     """List saved account and current messages."""
     state = load_state()
     if not state:
