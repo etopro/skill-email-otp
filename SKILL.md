@@ -2,7 +2,8 @@
 name: tempmail
 description: Create temporary email addresses and monitor for OTP codes or validation links
 version: 1.0.0
-author: skill-email-otp
+metadata:
+  author: skill-email-otp
 ---
 
 # TempMail OTP Skill
